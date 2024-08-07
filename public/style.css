@@ -1,0 +1,59 @@
+.container{
+    border: 1px solid rgb(63, 63, 63);
+    width: 580px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 4px rgb(163, 160, 160);
+    margin: auto;
+    padding:10px;
+    overflow-y: auto ;
+}
+body{
+    height:100vh;
+    background-image: linear-gradient(rgb(9, 161, 226),rgb(190, 227, 246),rgb(9, 161, 226));
+}
+
+.heading{
+    text-align: center;
+}
+
+#messageinput{
+    margin-top: 8px;
+    width: 545px;
+    height: 24px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(163, 160, 160);
+}
+
+#send-container{
+    display:block;
+    text-align: center;
+    margin: auto;
+}
+
+.btn{
+    cursor:pointer;
+    height: 30px; 
+    border-radius: 5px;
+    background-color: rgb(2, 249, 2);
+    box-shadow: 1px 1px 1px 1px rgb(163, 160, 160);
+}
+
+.message{
+    background-color: rgb(201, 230, 255);
+    width:20%;
+    padding: 2px;
+    margin:17px 12px;
+    border-radius:10px;
+    border: 1px solid rgb(4, 4, 4);
+}
+
+.right{
+    float:right;
+    clear:both;
+}
+
+.left{
+    float:left;
+    clear:both;
+}
