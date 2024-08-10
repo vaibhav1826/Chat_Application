@@ -8,6 +8,7 @@
     padding:10px;
     overflow-y: auto ;
 }
+
 body{
     height:100vh;
     background-image: linear-gradient(rgb(9, 161, 226),rgb(190, 227, 246),rgb(9, 161, 226));
