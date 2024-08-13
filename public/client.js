@@ -17,6 +17,7 @@ socket.emit('new-user-joined',name);
 
 socket.on('user-joined', name =>{
 append(`${name} joined the chat`, 'right');
+console.log(name);
 });
 
 socket.on('user-joined', data =>{
